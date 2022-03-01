@@ -1,66 +1,184 @@
-<!DOCTYPE html>
+<!-- copyright file="index.html" company="MicroCODE Incorporated" Copyright © 2022 MicroCODE Incorporated Troy, MI -->
+<!-- author="Timothy J. McGuire" -->
+<!-- H T M L -->
 <html lang="en">
-  <head>
-    <title>MIT xPRO MERN Portfolio</title>
-    <style>
-        body {
-         font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
-         margin: 0mm;
-        }
-        #watermark {
-                    position: fixed;
-                    bottom: 150px;
-                    right: 150px;
-                    opacity: 0.15;
-                    font-size: 220pt;
-                    transform: rotate(-45deg);
-                    text-align: center;
-                    font-weight: bold;
-                    color: gray;
-        }
-        @media screen {
+
+    <head>
+        <!-- H E A D E R -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=120, initial-scale=1.0">
+        <title>MIT xPRO MERN Portfolio</title>
+        <!-- S T Y L E   S H E E T -->
+        <style>
+            body {
+                font-family: 'Franklin Gothic', 'Arial', Arial, sans-serif;
+                margin: 0mm;
+            }
+
+            #watermark {
+                position: fixed;
+                bottom: 150px;
+                right: 150px;
+                opacity: 0.15;
+                font-size: 220pt;
+                transform: rotate(-45deg);
+                text-align: center;
+                font-weight: bold;
+                color: gray;
+            }
+
+            @media screen {
                 @page {
-                        margin: 0mm 0mm 0mm 0mm;
+                    margin: 0mm 0mm 0mm 0mm;
                 }
+
                 body {
-                        background-color: rgb(82, 86, 89);
+                    background-color: rgb(82, 86, 89);
                 }
+
                 div.page {
-                        width: 210mm;
-                        height: 297mm;
-                        margin: 0mm auto 5mm auto;
-                        background-color: white;
-                        filter: drop-shadow(2px 4px 6px black);
+                    width: 210mm;
+                    height: 297mm;
+                    margin: 0mm auto 5mm auto;
+                    background-color: white;
+                    filter: drop-shadow(2px 4px 6px black);
                 }
-        }
-        h1 {
+            }
+
+            h1 {
                 font-size: 36pt;
                 line-height: 28mm;
                 color: #fff;
                 font-weight: bold;
                 margin: 0;
                 padding: 0;
-        }
-        h2 {
+            }
+
+            h2 {
                 font-size: 12.0pt;
                 line-height: 4.5mm;
                 color: #fff;
                 font-weight: normal;
                 margin: 0;
                 padding: 0;
-        }
-        h3 {
+            }
+
+            h3 {
                 font-size: 8.0pt;
                 line-height: 3.5mm;
                 color: #fff;
                 font-weight: normal;
                 margin: 0;
                 padding: 0;
-        }      
-    </style>
-  </head>
-  <body>
-    <h1>[  Timothy J McGuire - MicroCODE  ]</h1>
-    <img src="MeanMe.jpg" width="1000"  alt="Mean Me Picture." />
-  </body>
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- B O D Y -->
+        <h1>[ Timothy J McGuire - MicroCODE ]</h1>
+        <img src="MeanMe.jpg"
+             width="1000"
+             alt="Mean Me Picture." />
+    </body>
+    <!-- D A T A B A S E: defines 'dataStore' from a JSON file -->
+    <!--<script src="dataSourceName.js"></script>-->
+
+    <!-- I M P O R T   M O D U L E S -->
+    <!-- Include our common MicroCODE Client Library -->
+    <!--<script src="mcodeClient.js"></script>-->
+
+    <!-- P A G E 'S   J A V A S C R I P T -->
+    <script>
+        // #region   P R I V A T E   F I E L D S
+
+        let _notImplemented = ' is not implemented.';
+        let _privateField1 = 0;
+        let _privateField2 = [];
+
+        // #endregion
+
+        // #region  P R I V A T E   F U N C T I O N S
+        /**
+         * @function functionName() -- function description.
+         *
+         * @param {string} param1 parameter #1 description.
+         * @param {number} param2 parameter #2 description.
+         * @returns {object} description of return value.
+         */
+        var functionName = function (param1, param2)
+        {
+            let value = null;
+
+            return value;
+        };
+
+        // #endregion
+
+        // #region  C A L L B A C K S
+        /*
+         * callback*() - callback* description.
+         */
+        function callbackFormatter(messageData)
+        {
+            // handle item manipulation...
+            return messageData + _notImplemented;
+        }
+
+        // #endregion
+
+        // #region  E V E N T   H A N D L E R S
+        /*
+         * btnUI_*_Click() - event handlers for UI buttons.
+         */
+
+        // Button #1 handler
+        function btnUI_Button1_Click(messageData1, callBack)
+        {
+            // Handle 'Click'...
+            console.log(callBack(messageData1));
+        }
+
+        // Button #2 handler
+        function btnUI_Button2_Click(messageData2, callBack)
+        {
+            // Handle 'Click'...
+            console.log(callBack(messageData2));
+        }
+
+        // Button #3 handler
+        function btnUI_Button3_Click(messageData3, callBack)
+        {
+            // Handle 'Click'...
+            console.log(callBack(messageData3));
+        }
+
+        // #endregion
+
+        // #region  E X E C U T I O N
+
+        // Load data sources...
+
+        // Map Event Handlers...
+        /*
+        document.getElementById("btnUI_Button1")
+            .addEventListener("click", () => { btnUI_Button1_Click('Button #1', callbackFormatter); });
+
+        document.getElementById("btnUI_Button2")
+            .addEventListener("click", () => { btnUI_Button2_Click('Button #2', callbackFormatter); });
+
+        document.getElementById("btnUI_Button3")
+            .addEventListener("click", () => { btnUI_Button3_Click('Button #3', callbackFormatter); });
+        */
+
+        // Set Timeout Events...
+
+        // Run Timed Events...
+
+        // #endregion
+    </script>
+
 </html>

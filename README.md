@@ -44,7 +44,8 @@ Contributors names and contact info
 
 ## Version History
 
-* 1.1 -- march 30, 2022 - added MicroCODE JS extension to dynamically reformat a few items based on windows width for Phones vs. Large Screens.
+* 1.1 -- March 30, 2022 - added MicroCODE JS extension to dynamically reformat a few items 
+                          based on windows width for Phones vs. Large Screens.
 * 1.0 -- March 29, 2022 - first complete version
 * 0.0 -- Initial Release - placeholder only
 

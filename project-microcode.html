@@ -171,7 +171,7 @@
         <header class="navbar navbar-top navbar-expand navbar-dark navbar-fixed">
             <div class="container justify-content-between">
                 <a class="navbar-brand" href="index.html">
-                    <img width="294" src="assets/images/me/timothy-mcguire-white.png" alt="">
+                    <img id="navbar-image" width="384" src="assets/images/me/timothy-mcguire-white.png" alt="">
                 </a>
                 <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
                     <span></span>
@@ -486,10 +486,18 @@
                     <div class="background-color" style="background-image: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #0e0e0e 100%);"></div>
                 </div>
                 <!-- MicroCODE Intro -->
+                <style>
+                    h1
+                    {
+                        /* Override h1 theme style for MicroCODE */
+                        font-weight: 900;
+                        color: white;
+                    }
+                </style>
                 <div class="container py-lg-2">
                     <div class="row gh-1 gv-2 text-white">
                         <div class="col-lg-5 me-auto show-on-scroll" data-show-duration="900">
-                            <h1 class="display-2 text-white mb-0">MicroCODE Incorporated</h1>
+                            <h1>MicroCODE Incorporated</h1>
                         </div>
                         <div class="col-lg-2"></div>
                         <div class="col-lg me-xl-n30 show-on-scroll" data-show-duration="900" data-show-delay="150">
@@ -609,7 +617,7 @@
                     <!-- Customer Logos -->
                     <div class="pt-30 mt-n10">
                         <div class="row align-items-center justify-content-between text-center gh-1 gv-3">
-                            <div class="col-6 col-sm-4 col-lg-auto show-on-scroll" data-show-delay="50" data-show-duration="300" data-show-distance="20">
+                            <div id="customer-logos" class="col-lg-auto show-on-scroll" data-show-delay="50" data-show-duration="300" data-show-distance="20">
                                 <a href="#" class="brand text-grey">
                                     <svg id='gm' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='150' height='150' viewBox='0, 0, 400, 400'>
                                         <g id='gm-logo'>
@@ -618,7 +626,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="col-6 col-sm-4 col-lg-auto show-on-scroll" data-show-delay="100" data-show-duration="300" data-show-distance="20">
+                            <div id="customer-logos" class="col-lg-auto show-on-scroll" data-show-delay="100" data-show-duration="300" data-show-distance="20">
                                 <a href="#" class="brand text-grey">
                                     <svg id='ford' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='240' height='98.508' viewBox='0, 0, 400,164.18100701083492'>
                                         <g id='ford-logo'>
@@ -628,7 +636,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="col-6 col-sm-4 col-lg-auto show-on-scroll" data-show-delay="150" data-show-duration="300" data-show-distance="20">
+                            <div id="customer-logos" class="col-lg-auto show-on-scroll" data-show-delay="150" data-show-duration="300" data-show-distance="20">
                                 <a href="#" class="brand text-grey">
                                     <svg id='rockwell' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='289' height='63.092' viewBox='0, 0, 400,103.95010395010395'>
                                         <g id='svgg'>
@@ -637,7 +645,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="col-6 col-sm-4 col-lg-auto show-on-scroll" data-show-delay="200" data-show-duration="300" data-show-distance="20">
+                            <div id="customer-logos" class="col-lg-auto show-on-scroll" data-show-delay="200" data-show-duration="300" data-show-distance="20">
                                 <a href="#" class="brand text-grey">
                                     <svg id='svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='260.1' height='56.7828' viewBox='0, 0, 400,87.32394366197182'>
                                         <g id='svgg'>
@@ -646,7 +654,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="col-6 col-sm-4 col-lg-auto show-on-scroll" data-show-delay="250" data-show-duration="300" data-show-distance="20">
+                            <div id="customer-logos" class="col-lg-auto show-on-scroll" data-show-delay="250" data-show-duration="300" data-show-distance="20">
                                 <a href="#" class="brand text-grey">
                                     <svg id='svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='250' height='155.9375' viewBox='0, 0, 400,249.50495049504948'>
                                         <g id='svgg'>
@@ -655,7 +663,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="col-6 col-sm-4 col-lg-auto show-on-scroll" data-show-delay="300" data-show-duration="300" data-show-distance="20">
+                            <div id="customer-logos" class="col-lg-auto show-on-scroll" data-show-delay="300" data-show-duration="300" data-show-distance="20">
                                 <a href="#" class="brand text-grey">
                                     <svg id='svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='180' height='180' viewBox='0, 0, 400,400'>
                                         <g id='svgg'>
@@ -664,7 +672,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="col-6 col-sm-4 col-lg-auto show-on-scroll" data-show-delay="350" data-show-duration="300" data-show-distance="20">
+                            <div id="customer-logos" class="col-lg-auto show-on-scroll" data-show-delay="350" data-show-duration="300" data-show-distance="20">
                                 <a href="#" class="brand text-grey">
                                     <svg id='svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='260' height='69.27083333333334' viewBox='0, 0, 400,69.27083333333334'>
                                         <g id='svgg'>
@@ -673,7 +681,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="col-6 col-sm-4 col-lg-auto show-on-scroll" data-show-delay="400" data-show-duration="300" data-show-distance="20">
+                            <div id="customer-logos" class="col-lg-auto show-on-scroll" data-show-delay="400" data-show-duration="300" data-show-distance="20">
                                 <a href="#" class="brand text-grey">
                                     <svg id='offshore' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='200' height='161.4525' viewBox='0, 0, 400,322.9050279329609'>
                                         <g id='svgg'>
@@ -900,6 +908,8 @@
         <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
         <!-- Fancybox -->
         <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <!-- MicroCODE -->
+        <script src="assets/js/microcode.min.js"></script>
         <!-- Themebau -->
         <script src="assets/js/themebau.min.js"></script>
         <!-- END: Scripts -->

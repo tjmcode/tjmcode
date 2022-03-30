@@ -5,7 +5,7 @@ My MicroCODE Portfolio for the MIT xPRO Course.
 
 ## Description
 
-This is a place-holder for the final portfolio website that will hold all my work from the MIT xPRO Full Stack Developer Course.
+This is my professional portfolio website that will hold all my work from the MIT xPRO Full Stack Developer Course.
 
 
 ## Getting Started
@@ -13,7 +13,8 @@ This is a place-holder for the final portfolio website that will hold all my wor
 
 ### Dependencies
 
-* None.
+* Bootstrap
+* Themebau - Bootstrap Theme
 
 
 ## Help
@@ -29,6 +30,7 @@ To contact me, email: tmcguire@mcode.com
 |  MIT              | Massachusetts Institute of Technology.
 |  xPRO             | Expert / Professional Education.
 |  MERN             | Mongo-Epress-React-NodeJS - a Full Stack for Web Development.
+|  Bootstrap        | CSS Styles and Themes to make professional looking web sites.
 
 
 
@@ -42,6 +44,7 @@ Contributors names and contact info
 
 ## Version History
 
+* 1.0 -- March 29, 2022 - first complete version
 * 0.0 -- Initial Release - placeholder only
 
 
@@ -56,3 +59,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 Inspiration, code snippets, etc.
 * [MIT xPRO MERN Course](https://student.emeritus.org/courses/3291)
+* Themebau - Bootstrap Theme by RunWebRun
+

@@ -44,6 +44,7 @@ Contributors names and contact info
 
 ## Version History
 
+* 1.3 -- April 3, 2022 - renamed all Blog files to naturally sort by date yyyy-mm-dd-event
 * 1.2 -- March 31, 2022 - made NavBar logo invisible until properly sized to device
 * 1.1 -- March 30, 2022 - added MicroCODE JS extension to dynamically reformat a few items <br>
   based on window width for Phones vs. Large Screens.

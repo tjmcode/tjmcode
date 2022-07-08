@@ -44,7 +44,7 @@ Contributors names and contact info
 
 ## Version History
 
-* 1.6 -- July 7, 2022 - added Shopping cart and Bad Bank 2 React Apps to MITxPRO work
+* 1.6 -- July 7, 2022 - added Shopping Cart and Bad Bank 2 React Apps to MITxPRO work
 * 1.5 -- April 7, 2022 - editorial work on blog, +page view counter
 * 1.4 -- April 5, 2022 - updated personal page names to one lowercase word
 * 1.3 -- April 3, 2022 - renamed all Blog files to naturally sort by date yyyy-mm-dd-event

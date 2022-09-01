@@ -30,6 +30,10 @@ To contact me, email: tmcguire@mcode.com
 |  MIT              | Massachusetts Institute of Technology.
 |  xPRO             | Expert / Professional Education.
 |  MERN             | Mongo-Epress-React-NodeJS - a Full Stack for Web Development.
+|  MongoDB          | A ‘NoSQL’ database designed for Cloud applications, also referred to as a ‘Document Store’.
+|  Express          | Express is *not* a database but rather an ‘extensible routing language’ for communication between a Client and a Server.
+|  React            | A Web UI development system, a JavaScript library developed by Facebook and made public—and Open Source—since 2013.
+|  Node JS          | A development stack that executes from a local file store—on a local Server—instead of from a network of remote servers on the Web.
 |  Bootstrap        | CSS Styles and Themes to make professional looking web sites.
 
 
@@ -44,6 +48,7 @@ Contributors names and contact info
 
 ## Version History
 
+* 1.7 -- Sept 1, 2022 - added additonal information all the MITxPRO
 * 1.6 -- July 7, 2022 - added Shopping Cart and Bad Bank 2 React Apps to MITxPRO work
 * 1.5 -- April 7, 2022 - editorial work on blog, +page view counter
 * 1.4 -- April 5, 2022 - updated personal page names to one lowercase word
@@ -67,4 +72,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 Inspiration, code snippets, etc.
 * [MIT xPRO MERN Course](https://student.emeritus.org/courses/3291)
 * Themebau - Bootstrap Theme by RunWebRun
-
